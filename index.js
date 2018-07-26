@@ -16,3 +16,10 @@ decryptedPassword += decipher.final('utf8')
 
 console.log("Crypted Text:", cryptedPassword)
 console.log("Decrypted Text:", decryptedPassword)
+
+
+
+//Output
+// iv= <Buffer 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00>
+// Crypted Text: 5dfc6f5d903e309922fc9ed14e31744c692e0fd8f7f89bc765ebd3c07f473790
+// Decrypted Text: This is the text to cipher!
